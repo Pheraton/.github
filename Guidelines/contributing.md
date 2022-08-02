@@ -18,6 +18,7 @@ some optimizations or algorithms that we tend to reject are:
   * Optimization that may limit productivity isn't recommended
 * **Domain-specific Optimization:** Optimization in Pheraton's software should be general optimization and not to be so specific that will be nearly useful to the average user. Pheraton Software is built to be extended upon.
   * Adding on this, you should optimize for the general audience of the software, rather than explict groups *(such as "power users")*. These optimization should be applied on the said groups' own versions.
+* **Avoid refactoring:** Don't rewrite code to fit better into your standards, as the refactoring can cause issues within codebases; if you have a problem, let us know.
 
 ## 1.2 Reading
 Optimizing readability should be chosen over writing.
